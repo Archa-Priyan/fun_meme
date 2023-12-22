@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color:crimson;
+    font-size: 25px;
+    background-image: url('https://img.freepik.com/premium-vector/funny-baby-doodle-sketch-seamless-colorful-background_224667-1641.jpg');
+  }
+  .meme-generator {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    
+  }
+  .title{
+    border: #222;
+    width: 150px;
+    height: 160px;
+    background-color: #222;
+  }
+  .button{
+    background-color: black;
+    font-style: oblique;
+    font-family:cursive;
+    border: hidden;
+    color: #f64d4d;
+    border-radius: 12px;
+  }
+  .meme-generator img {
+    height: 430px;
+    object-fit: cover;
+    border: #fff;
+   
+   
+  }
+  .meme-generator img:hover{
+    border: #fff;
+  
+  }
+  
+  .meme-generator .generate-meme-btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    background: black;
+    cursor: pointer;
+    transition: all 400ms ease;
+  }
+  
+  .meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    letter-spacing: 3px;
+  }
+  
+  .meme-generator .meme-author {
+    margin: 8px;
+  }
+  
